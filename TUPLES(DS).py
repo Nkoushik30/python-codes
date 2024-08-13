@@ -1,0 +1,11 @@
+t0=(1,24,356,345,345)
+print(t0)
+t1=(123,34,356,67)
+print(t1)
+t3=t0+t1
+t4=t3
+print(t4)
+print(len(t4))
+print(t4.count(345))
+t5=tuple(zip(t0,t1))
+print(t5)
