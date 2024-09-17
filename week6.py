@@ -45,3 +45,10 @@ c=int(input("Enter the values to find the GCD:"))
 d=int(input())
 print("greatest common divisor:",rgcd(c,d))	
 #############################################################
+dict1={"name":'charan','age':19,'section':'d'}
+print(dict1)
+a1='eluru'
+a2='village'
+dict1[a2]=a1
+print(dict1)
+###########################################################
