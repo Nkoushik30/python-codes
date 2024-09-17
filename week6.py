@@ -28,3 +28,20 @@ def fun():
 fun()
 print("X:",x)
 ########################################################
+def fun(key):
+	if key in dict1:
+		print("Key found")
+	else:
+		print("key not found")
+dict1={'name':'shankar','age':19,'section':'d'}
+a=input("Enter the key to find:")
+fun(a)
+#################################################### ##
+def rgcd(a,b):
+	while(b!=0):
+		a,b=b,a%b
+	return a
+c=int(input("Enter the values to find the GCD:"))
+d=int(input())
+print("greatest common divisor:",rgcd(c,d))	
+#############################################################
