@@ -1,0 +1,6 @@
+f=open("example.bin",'wb')
+print(f.write(b'\x00\x01\x02\x03'))
+f.close()
+f=open("example.bin",'rb')
+print(f.read())
+f.close()
