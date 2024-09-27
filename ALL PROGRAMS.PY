@@ -21,11 +21,11 @@ for i in range(1,n+1,1):
 	fact=fact*i
 print(fact)
 ###
-#"""n=int(input("enter multiplication value upto:"))
-#k=int(input("enter k value:"))
-#i=1
-#for i in range(1,n+1):
-	#print(k,"x",i,"=",k*i)
+n=int(input("enter multiplication value upto:"))
+k=int(input("enter k value:"))
+i=1
+for i in range(1,n+1):
+	print(k,"x",i,"=",k*i)
 n=int(input("enter a value:"))
 k=int(input("enter the value:"))
 i=1
