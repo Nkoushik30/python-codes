@@ -32,3 +32,4 @@ i=1
 while i<=n:
 	print(k,"x",i,"=",k*i)
 	i+=1
+#
